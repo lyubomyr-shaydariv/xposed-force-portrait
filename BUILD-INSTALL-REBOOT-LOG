@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./BUILD && ./INSTALL && adb reboot && ./LOG
