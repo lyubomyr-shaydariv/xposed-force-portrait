@@ -1,0 +1,6 @@
+#!/bin/sh
+
+adb logcat -v color,tag \
+	'LSPosed-Bridge:I' \
+	'lsh.xposed.modules.screen.orientation:D' \
+	'*:S'

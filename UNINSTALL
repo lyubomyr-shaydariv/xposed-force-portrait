@@ -1,0 +1,3 @@
+#!/bin/sh
+
+adb uninstall app/build/outputs/apk/debug/app-debug.apk
